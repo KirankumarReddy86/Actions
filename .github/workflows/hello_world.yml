@@ -2,10 +2,10 @@ name: Hello World Workflow
 on:
   push:
     branches:
-    -main
+       -main
   pull_request:
     branches:
-    -main
+       -main
   workflow dispatch:
 jobs:
   hello:
